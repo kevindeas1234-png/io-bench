@@ -73,6 +73,13 @@ show who directed it. Anyone can run tests against someone else's code.
 Keep the transcripts. They are the strongest thing you have, and unlike a log they can
 only have come from the person at the keyboard.
 
+**`D:\AOS_Evidence\`** holds exactly that: the exported conversation (2,684 entries, from
+the first message onward), a byte-level snapshot of the session database taken with
+SQLite's online backup, LM Studio's record of every completion it served, and a manifest
+of SHA-256 hashes for the lot. Redacted copies sit alongside the raw ones for showing to
+other people. Note that the raw pack contains a pasted API credential — it is private, and
+the token should be rotated.
+
 ## Third-party software
 
 None of this is redistributed; the release is original source only. Credited because it
