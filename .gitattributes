@@ -1,0 +1,11 @@
+# Normalise line endings so a checkout on any platform builds the same thing.
+* text=auto
+
+# cmd.exe misreads batch files without CRLF.
+*.bat text eol=crlf
+
+# Never touch binaries or generated artefacts.
+*.img binary
+*.zip binary
+*.png binary
+*.ico binary

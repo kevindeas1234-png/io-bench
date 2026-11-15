@@ -215,3 +215,13 @@ results/       numbered, timestamped, hashed run archives
 ## Licence
 
 MIT — see `LICENSE`.
+
+
+## Project documents
+
+| Document | What it covers |
+|---|---|
+| [CREDITS.md](CREDITS.md) | who contributed what, and how the work was produced |
+| [CHANGELOG.md](CHANGELOG.md) | what changed, per version |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | how to send a change, and the house rules |
+| [SECURITY.md](SECURITY.md) | known exposures, and how to report a problem |
