@@ -201,6 +201,14 @@ one honest number.
 - no power/thermal control, so laptop numbers drift
 - toy workload: real applications interleave reads, writes and compute
 
+## Where it writes
+
+`io_bench` generates its own workload inside `--workdir` (256 MiB by default). `inplace.py`
+rewrites that file in place rather than copying it first, so a scratch directory is the
+intended home for a run.
+
+[`SECURITY.md`](SECURITY.md) covers the rest, including how to report a problem.
+
 ## Repository layout
 
 ```
